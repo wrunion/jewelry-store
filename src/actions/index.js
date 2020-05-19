@@ -6,3 +6,9 @@ export const selectItem = (item) => {
     payload: item
   };
 };
+
+export const toggleForm = () => {
+  return {
+    type: 'TOGGLE_FORM'
+  }
+}
