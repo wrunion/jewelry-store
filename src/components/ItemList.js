@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { selectItem } from '../../actions';
+import { selectItem } from './../actions';
 
 class ItemList extends Component {
   /* Return the styled list */
